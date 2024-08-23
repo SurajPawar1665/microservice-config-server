@@ -4,6 +4,12 @@ server:
 spring:
   application:
     name : CONFIGSERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: 
+    
 
 eureka:
   instance:

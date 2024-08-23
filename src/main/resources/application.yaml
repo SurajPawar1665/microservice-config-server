@@ -8,7 +8,9 @@ spring:
     config:
       server:
         git:
-          uri: 
+          uri: https://github.com/SurajPawar1665/microservice-config-server/tree/master/src/main/resources/configserverfiles/
+          clone-on-start: true
+          
     
 
 eureka:
